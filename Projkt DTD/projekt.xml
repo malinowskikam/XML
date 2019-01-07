@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE siec [
+	<!ENTITY % notacje SYSTEM "notacje.dtd">
+	<!ENTITY % encje SYSTEM "encje.dtd">
+	<!ENTITY % elementy SYSTEM "elementy.dtd">
+	<!ENTITY % atrybuty SYSTEM "atrybuty.dtd">
+	%notacje;
+	%encje;
+	%elementy;
+	%atrybuty;
+]>
+
+
+<siec nazwa="DFE">
+	<sklepy>
+		<!--                      -->
+		<sklep id="_1" typ="spożywczy">
+			<nazwa>U Jacka</nazwa>
+			<adres>
+				<ulica>Polna</ulica>
+				<numer>15</numer>
+				<kod>80-809</kod>
+				<miasto>&gd;</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<kontakt>
+				<telefon>867-103-989</telefon>
+			</kontakt>			
+		</sklep>
+		<sklep id="_2" typ="wielobranżowy">
+			<nazwa>Krówka</nazwa>
+			<adres>
+				<ulica>Staszewskiego</ulica>
+				<numer>11</numer>
+				<kod>80-811</kod>
+				<miasto>&gd;</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<kontakt>
+				<telefon>712-123-634</telefon>
+				<email>sklepkrowka@gmail.com</email>
+			</kontakt>			
+		</sklep>
+		<sklep id="_3" typ="monopolowy">
+			<nazwa>Promil</nazwa>
+			<adres>
+				<ulica>Żeromskiego</ulica>
+				<numer>21</numer>
+				<kod>80-810</kod>
+				<miasto>&gd;</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<kontakt>
+				<telefon>802345121</telefon>
+				<telefon>878571234</telefon>
+				<email>promilgdansk@onet.pl</email>
+				<adres_korespondencyjny>
+					<ulica>Ignaczaka</ulica>
+					<numer>3</numer>
+					<kod>82-400</kod>
+					<miasto>Sztum</miasto>
+					<wojewodztwo>pomorskie</wojewodztwo>
+				</adres_korespondencyjny>
+			</kontakt>			
+		</sklep>
+		<!--                      -->
+	</sklepy>
+	<pracownicy>
+		<!--                      -->
+		<pracownik id_sklep="_1" stanowisko="sprzedawca">
+			<imie>Krystyna</imie>
+			<nazwisko>Walczak</nazwisko>
+			<adres>
+				<ulica>Śniegowa</ulica>
+				<numer>41</numer>
+				<kod>70-123</kod>
+				<miasto>Sopot</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<zdiecie zdiecie="kwalczak1"/>
+			<pesel>81021412345</pesel>
+			<data_ur>14-02-81</data_ur>
+			<kontakt>
+				<telefon>645474353</telefon>
+			</kontakt>
+		</pracownik>
+		<pracownik id_sklep="_1" stanowisko="sprzedawca">
+			<imie>Jacek</imie>
+			<nazwisko>Malewski</nazwisko>
+			<adres>
+				<ulica>Kołakowska</ulica>
+				<numer>156</numer>
+				<mieszkanie klatka="3">4</mieszkanie>
+				<kod>80-421</kod>
+				<miasto>Gdynia</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<pesel>74041155522</pesel>
+			<data_ur>11-04-74</data_ur>
+			<kontakt>
+				<telefon>675834654</telefon>
+				<email>jacek.malewski74@gmail.com</email>
+				<adres_korespondencyjny>
+					<ulica>Kołakowska</ulica>
+					<numer>156</numer>
+					<kod>80-421</kod>
+					<miasto>Gdynia</miasto>
+					<wojewodztwo>pomorskie</wojewodztwo>
+				</adres_korespondencyjny>
+			</kontakt>
+		</pracownik>
+		<pracownik id_sklep="_2" stanowisko="sprzedawca">
+			<imie>Marzena</imie>
+			<nazwisko>Wiśniewska</nazwisko>
+			<adres>
+				<ulica>Modrowa</ulica>
+				<numer>1</numer>
+				<kod>80-421</kod>
+				<miasto>Gdynia</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<zdiecie zdiecie="mwisniewska1"/>
+			<pesel>70010134537</pesel>
+			<data_ur>01-01-70</data_ur>
+			<kontakt>
+				<telefon>636234512</telefon>
+			</kontakt>
+		</pracownik>
+		<pracownik id_sklep="_2" stanowisko="sprzątacz">
+			<imie>Arkadiusz</imie>
+			<nazwisko>Kołczan</nazwisko>
+			<adres>
+				<ulica>Walewska</ulica>
+				<numer>1</numer>
+				<mieszkanie klatka="c">4</mieszkanie>
+				<kod>80-421</kod>
+				<miasto>Gdynia</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<pesel>82081913534</pesel>
+			<data_ur>19-08-82</data_ur>
+			<kontakt>
+				<telefon>747875345</telefon>
+				<email>kolczan.a@gmail.com</email>
+			</kontakt>
+		</pracownik>
+		<pracownik id_sklep="_3" stanowisko="sprzedawca">
+			<imie>Jolanta</imie>
+			<nazwisko>Mazurek</nazwisko>
+			<adres>
+				<ulica>Anielska</ulica>
+				<numer>16</numer>
+				<kod>80-809</kod>
+				<miasto>&gd;</miasto>
+				<wojewodztwo>pomorskie</wojewodztwo>
+			</adres>
+			<zdiecie zdiecie="jmazurek1"/>
+			<zdiecie zdiecie="jmazurek2"/>
+			<pesel>89032266758</pesel>
+			<data_ur>22-03-89</data_ur>
+			<kontakt>
+				<telefon>479042234</telefon>
+			</kontakt>
+		</pracownik>
+		<!--                      -->
+	</pracownicy>
+</siec>

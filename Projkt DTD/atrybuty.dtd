@@ -1,0 +1,7 @@
+<!ATTLIST siec nazwa CDATA #FIXED "DFE">
+<!ATTLIST sklep id ID %req;>
+<!ATTLIST sklep typ (spożywczy|wielobranżowy|monopolowy) %req;>
+<!ATTLIST pracownik id_sklep IDREF %req;>
+<!ATTLIST pracownik stanowisko (sprzedawca|sprzątacz) %req;>
+<!ATTLIST zdiecie zdiecie ENTITY %req;>
+<!ATTLIST mieszkanie klatka NMTOKEN #IMPLIED>

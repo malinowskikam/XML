@@ -1,0 +1,13 @@
+<!-- ogolne -->
+<!ENTITY gd "Gdańsk">
+
+<!-- parametryczne -->
+<!ENTITY % pc "#PCDATA">
+<!ENTITY % req "#REQUIRED">
+
+
+<!-- zdiecia (ogolne zewnetrzne) -->
+<!ENTITY kwalczak1 SYSTEM "images/kwalczak/photo1.jpg" NDATA jpg>
+<!ENTITY mwisniewska1 SYSTEM "images/mwisniewska/photo1.jpg" NDATA jpg>
+<!ENTITY jmazurek1 SYSTEM "images/jmazurek/photo1.jpg" NDATA jpg>
+<!ENTITY jmazurek2 SYSTEM "images/jmazurek/photo2.jpg" NDATA jpg>
