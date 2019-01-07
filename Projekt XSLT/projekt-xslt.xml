@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sklep>
+<pracownicy>
+ <pracownik>
+	<imie plec="m">Jakub</imie>
+	<nazwisko>Bialy</nazwisko>
+	<wiek>50</wiek>
+ </pracownik>
+ <pracownik>
+	<imie plec="k">Katarzyna</imie>
+    <nazwisko>Serdecznik</nazwisko>
+	<wiek>40</wiek>
+ </pracownik>
+ <pracownik>
+	<imie plec="k">Jolanta</imie>
+    <nazwisko>Manna</nazwisko>
+	<wiek>30</wiek>
+ </pracownik>
+ </pracownicy>
+<artykuly>
+<dzial id="a1">
+	<komputer>
+	  <ilosc>250</ilosc>
+	<cena waluta="EUR">2000</cena>
+	<kraj>Niemcy</kraj>
+	</komputer>
+    <klawiatura>
+		<ilosc>200</ilosc>
+		<cena waluta="PLN">300</cena>
+		<kraj>Polska</kraj>
+	</klawiatura>
+	<konsola>
+	 <ilosc>60</ilosc>
+	 <cena waluta="EUR">1500</cena>
+	 <kraj> Hiszpania </kraj>
+	</konsola>
+	<myszka>
+		 <ilosc>1000</ilosc>
+		 <cena waluta="PLN">20</cena>
+		 <kraj>Polska</kraj>
+	 </myszka>
+</dzial>
+<dzial id="a2">
+	<telewizor>
+		<ilosc>120</ilosc>
+		<cena waluta="EUR">3000</cena>
+		<kraj>Dania</kraj>
+	</telewizor>
+</dzial>	
+	 </artykuly>
+</sklep>
