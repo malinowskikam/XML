@@ -1,1 +1,5 @@
-# Projekty XML
+# XML Exercises
+
+* DTD
+* Schema
+* XSLT
